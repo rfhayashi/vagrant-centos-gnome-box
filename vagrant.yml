@@ -1,0 +1,7 @@
+- hosts: all
+  vars:
+    vagrant_plugins_user: vagrant
+    vagrant_plugins:
+      - name: vagrant-digitalocean
+  roles:
+    - rfhayashi.vagrant
