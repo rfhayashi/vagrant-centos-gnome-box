@@ -1,0 +1,6 @@
+- hosts: all
+  vars:
+    vagrant_plugins:
+      - name: nugrant
+  roles:
+    - rfhayashi.vagrant

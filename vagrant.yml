@@ -3,5 +3,9 @@
     vagrant_plugins_user: vagrant
     vagrant_plugins:
       - name: vagrant-digitalocean
+      - name: nugrant
+  tasks:
+    - name: installs rsync
+      yum: name=rsync
   roles:
     - rfhayashi.vagrant
