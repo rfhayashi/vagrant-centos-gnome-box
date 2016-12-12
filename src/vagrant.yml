@@ -3,4 +3,5 @@
     vagrant_plugins:
       - name: nugrant
   roles:
+    - rfhayashi.virtualbox
     - rfhayashi.vagrant
