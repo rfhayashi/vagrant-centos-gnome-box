@@ -1,0 +1,10 @@
+language: ruby
+
+install:
+  - gem install vagrant
+  - vagrant plugin install vagrant-digitalocean
+  - vagrant plugin install nugrant
+
+script:
+  - cd src
+  - vagrant status

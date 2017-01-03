@@ -1,4 +1,4 @@
 - src: rfhayashi.virtualbox
-  version: '0.1'
+  version: '0.2'
 - src: rfhayashi.vagrant
   version: '0.3'
